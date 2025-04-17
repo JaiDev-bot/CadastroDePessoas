@@ -1,6 +1,7 @@
 package dev.jaiane.CadastroDePessoas;
 
 
+
 import jakarta.persistence.*;
 
 
@@ -12,7 +13,7 @@ public class PessoaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
-    Long id;
+    private Long id;
     private String name;
     private String email;
     private int idade;
