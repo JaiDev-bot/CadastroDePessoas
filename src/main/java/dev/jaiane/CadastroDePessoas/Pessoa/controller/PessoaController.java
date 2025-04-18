@@ -1,4 +1,4 @@
-package dev.jaiane.CadastroDePessoas;
+package dev.jaiane.CadastroDePessoas.Pessoa.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
